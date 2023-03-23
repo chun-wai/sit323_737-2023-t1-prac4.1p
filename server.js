@@ -119,7 +119,7 @@ app.get("/multiply", (req,res)=>{
 
 // Writing a function for division of two numbers
 const divide= (n1,n2) => {
-    return n1*n2;
+    return n1/n2;
 }
 app.get("/divide", (req,res)=>{
     try{
